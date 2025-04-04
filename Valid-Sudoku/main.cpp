@@ -24,14 +24,14 @@ class Solution
                   return false;
               }
           }
-          return true;
       }
+    return true;
   }
 };
 
 int main()
 {
-    vector<vector<char>> board(9,vector<char>(9))>;
+    vector<vector<char>> board(9,vector<char>(9));
     cout<<"use . for empty cells";
     for(int i=0;i<9;i++)
     {
