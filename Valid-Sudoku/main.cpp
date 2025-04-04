@@ -26,13 +26,13 @@ public:
                 }
             }
         }
-        return true; // Move return true here to check all rows, columns, and boxes first
+        return true; 
     }
 };
 
 int main()
 {
-    vector<vector<char>> board(9, vector<char>(9));  // Fixed syntax error
+    vector<vector<char>> board(9, vector<char>(9));  
     cout << "Use '.' for empty cells:\n";
     for (int i = 0; i < 9; i++)
     {
